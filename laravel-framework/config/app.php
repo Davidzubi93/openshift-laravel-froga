@@ -120,10 +120,10 @@ return [
     |
     */
 
-    //'log' => env('APP_LOG', 'single'),
+    'log' => env('APP_LOG', 'single'),
     
     # 25/01/2017 logak heroku logetan visible moduan egotea
-    'log' => 'errorlog',
+    //'log' => 'errorlog',
 
     'log_level' => env('APP_LOG_LEVEL', 'debug'),
 
