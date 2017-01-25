@@ -37,8 +37,9 @@ return [
     | application. If disabled, a simple generic error page is shown.
     |
     */
-
-    'debug' => env('APP_DEBUG', false),
+    
+    #25-01-2017 debug false beharrean true jarri
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
