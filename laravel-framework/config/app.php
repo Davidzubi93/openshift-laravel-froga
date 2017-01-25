@@ -39,7 +39,7 @@ return [
     */
     
     #25-01-2017 debug false beharrean true jarri
-    'debug' => env('APP_DEBUG', true),
+    'debug' => env('APP_DEBUG', false),
 
     /*
     |--------------------------------------------------------------------------
